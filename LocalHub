@@ -26,29 +26,3 @@ end)
 Tab1:Button("Finish",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10991.560546875, 553.62841796875, 105.52526092529297)
 end)
-
-Tab2 = Library:Tab("SpeedHack")
-
-Tab2:Button("Normal Speed",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-
-Tab2:Button("Speed 25",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
-
-Tab2:Button("Speed 40",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
-
-Tab2:Button("Speed 50",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
-
-Tab2:Button("Speed 100",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-
-Tab2:Button("Speed 200",function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
-
-Tab3 = Library:Tab("Credit")
-
-Tab3:Button("Momoi @Azzahra033",function()
-
-Tab3:Button("GreedyBoy @anabocilgeng",function()
