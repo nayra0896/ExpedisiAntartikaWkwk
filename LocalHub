@@ -1,6 +1,6 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("@anabocilgeng","","",Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("ExpeditionAntartica","","",Enum.KeyCode.RightControl);
 Tab1 = Library:Tab("Teleport")
 
 Tab1:Button("Basecamp",function()
@@ -31,24 +31,24 @@ Tab2 = Library:Tab("SpeedHack")
 
 Tab2:Button("Normal Speed",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-end)
 
 Tab2:Button("Speed 25",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
-end)
 
 Tab2:Button("Speed 40",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
-end)
 
 Tab2:Button("Speed 50",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
-end)
 
 Tab2:Button("Speed 100",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-end)
 
 Tab2:Button("Speed 200",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
-end)
+
+Tab3 = Library:Tab("Credit")
+
+Tab3:Button("Momoi @Azzahra033",function()
+
+Tab3:Button("GreedyBoy @anabocilgeng",function()
