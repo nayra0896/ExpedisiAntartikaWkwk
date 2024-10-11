@@ -1,6 +1,6 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("Roblox : @anabocilgeng","","",Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("@anabocilgeng","","",Enum.KeyCode.RightControl);
 Tab1 = Library:Tab("Teleport")
 
 Tab1:Button("Basecamp",function()
@@ -27,6 +27,28 @@ Tab1:Button("Finish",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10991.560546875, 553.62841796875, 105.52526092529297)
 end)
 
-Tab1:Button("Checkpoint 4",function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8984.9716796875, 612.0872192382812, 59.26905059814453)
+Tab2 = Library:Tab("SpeedHack")
+
+Tab2:Button("Normal Speed",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Tab2:Button("Speed 25",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+end)
+
+Tab2:Button("Speed 40",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+end)
+
+Tab2:Button("Speed 50",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+Tab2:Button("Speed 100",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+Tab2:Button("Speed 200",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
 end)
