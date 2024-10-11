@@ -1,6 +1,6 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("ExpeditionAntartica","","",Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("♡Momoi♡","","",Enum.KeyCode.RightControl);
 Tab1 = Library:Tab("Teleport")
 
 Tab1:Button("Basecamp",function()
