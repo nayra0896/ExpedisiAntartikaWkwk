@@ -3,9 +3,12 @@ local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gami
 local Library = DarkraiX:Window("♡Momoi♡","","",Enum.KeyCode.RightControl);
 Tab1 = Library:Tab("Teleport")
 
-Tab1:Button("Basecamp",function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6048.509765625, -152.31680297851562, -19.11366844177246)
-end)
+Tab1:Button("NoFog",function()
+    local lighting = game:GetService("Lighting")
+local function removeFog()
+    lighting.FogEnd = 1000000
+    lighting.FogStart = 1000000
+end
 
 Tab1:Button("Checkpoint 1",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3688.243896484375, 240.43601989746094, 257.20501708984375)
